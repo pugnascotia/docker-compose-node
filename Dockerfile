@@ -1,4 +1,4 @@
-FROM node:latest
+FROM bravissimolabs/node:v6.2.0
 
 RUN apt-get update --quiet && \
     apt-get install --quiet -y apt-transport-https ca-certificates && \
